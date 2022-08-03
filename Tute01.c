@@ -5,7 +5,19 @@
 #include <stdio.h>
 
 int main() {
-  
+   
+   float mark1,mark2;
+   float sum;
+   
+   printf("input subject 1 marks:");
+   scanf("%f",&mark1);
+   
+   printf("input subject 2 marks:");
+   scanf("%f",&mark2);
+   
+   sum = mark1+mark2;
+   printf("total = %.2f",sum);
+   
   return 0;
 }
 
